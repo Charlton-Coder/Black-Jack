@@ -454,7 +454,8 @@ class Game(object):
 
 
 if __name__ == "__main__":
-    importer = StrategyImporter(sys.argv[1])
+    importer = StrategyImporter(.[1])
+    
     HARD_STRATEGY, SOFT_STRATEGY, PAIR_STRATEGY = importer.import_player_strategy()
 
     moneys = []
